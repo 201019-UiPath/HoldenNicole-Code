@@ -1,0 +1,13 @@
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\bin\Debug\netcoreapp3.1\HowdyWorld.exe
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\bin\Debug\netcoreapp3.1\HowdyWorld.deps.json
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\bin\Debug\netcoreapp3.1\HowdyWorld.runtimeconfig.json
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\bin\Debug\netcoreapp3.1\HowdyWorld.runtimeconfig.dev.json
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\bin\Debug\netcoreapp3.1\HowdyWorld.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\bin\Debug\netcoreapp3.1\HowdyWorld.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.csprojAssemblyReference.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.AssemblyInfoInputs.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.AssemblyInfo.cs
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.csproj.CoreCompileInputs.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HowdyWorld\obj\Debug\netcoreapp3.1\HowdyWorld.genruntimeconfig.cache
