@@ -3,49 +3,56 @@ using HeroesLib;
 
 namespace HeroesUI
 {
-    #region old ways of creating objects
-    class Program:Hero
+    class Program
     {
         static void Main(string[] args)
         {
             #region default constructor
-            Program obj1=new Program();
-            Console.WriteLine($"{obj1.id} {obj1.name}");
+            /*Hero obj1=new Hero();
+            Console.WriteLine($"{obj1.id} {obj1.name}");*/
             #endregion
 
             #region Parameterized constructor
-            Hero obj2 = new Hero(2,"Bobasauras");
-            Console.WriteLine($"{obj2.id} {obj2.name}");
+            /*Hero obj2 = new Hero(2,"Bobasauras");
+            Console.WriteLine($"{obj2.id} {obj2.name}"); //can only access variables if public*/
             #endregion
 
             #region Access via Properties
-            Console.WriteLine(obj1.Id);
+            /*Console.WriteLine(obj1.Id);//read property value
             obj1.Id=3;
-            Console.WriteLine($"New Id = {obj1.Id}");
+            Console.WriteLine($"New Id = {obj1.Id}");*/
             #endregion
-        }
-    }
-    #endregion
-    #region new way
-    class Program2{
-        static void Main(string[] args){
-            #region default constructor
 
-            #endregion
-            #region Parameterized constructor
-
-            #endregion
-            #region Access via Properties
+            #region Accessing Arrays
             Hero obj = new Hero();
-            Console.WriteLine("Please enter your hero id: ");
-            obj.Id=Console.ReadLine();
-            Console.WriteLine("Please enter your hero name: ");
+            /*Console.Write("Please enter your Superhero name: ");
+            obj.Id=Int32.Parse(Console.ReadLine());
+            Console.Write("Please enter your Superhero name: ");
             obj.Name=Console.ReadLine();
-            Console.WriteLine("Enter the best power you have: ");
-            obj.superPowers[0] = Console.ReadLine();
-            Console.Write($"{obj.Id} {obj.name} {obj.superPowers[0]}");
+            Console.Write("Enter the first Power your hero has: ")
+            obj.superPowers[0];
+            Console.ReadLine();
+            Console.Write($"{obj.Id} {obj.Name} {obj.superPowers[0]});*/
+            //Jagged Arrays rows and initializations
+            obj.ja[0]=new int[2];//first column
+            obj.ja[1]=new int[3];//second column
+            obj.ja[2]=new int[1];//third column
+            obj.ja[0][0] = 19;
+            obj.ja[1][2] = 15;
+            int[,,] td=new int[2,4,3];//3-D arrays
+            Console.WriteLine($"Dimension of the Array - {td.Rank}");
+            Console.WriteLine($"Number of elements in the Array - {td.Length}");
+            Console.WriteLine(obj.ja.Rank);//rank is dimension of array
+            Console.WriteLine(obj.ja.Length);//elements of the arrays
+            //loop through jagged array
+            foreach (var rows in obj.ja){//looping through all rows
+                //looping through all columns of every row
+                for(int i=0; i<rows.Length; i++){
+                    Console.Write($"{rows[i]}");
+                }
+                Console.WriteLine();
+            }
             #endregion
         }
     }
-    #endregion
 }
