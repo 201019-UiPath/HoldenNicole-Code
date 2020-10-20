@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HeroesUI/1.0.0": {
+        "dependencies": {
+          "HeroesLib": "1.0.0"
+        },
+        "runtime": {
+          "HeroesUI.dll": {}
+        }
+      },
+      "HeroesLib/1.0.0": {
+        "runtime": {
+          "HeroesLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeroesUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HeroesLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.csprojAssemblyReference.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.AssemblyInfoInputs.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.AssemblyInfo.cs
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.csproj.CoreCompileInputs.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesUI.exe
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesUI.deps.json
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesUI.runtimeconfig.json
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesUI.runtimeconfig.dev.json
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesUI.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesUI.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesLib.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesLib.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.csproj.CopyComplete
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\Week 1\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.genruntimeconfig.cache

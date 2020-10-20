@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "HeroesLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HeroesLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HeroesLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HeroesLib/1.0.0": {
+      "type": "project",
+      "path": "../HeroesLib/HeroesLib.csproj",
+      "msbuildProject": "../HeroesLib/HeroesLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "HeroesLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nfh22\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
+              "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
