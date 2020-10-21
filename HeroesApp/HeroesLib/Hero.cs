@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HeroesLib
 {
@@ -48,9 +49,41 @@ namespace HeroesLib
     public class Hero{
         public int Id {get; set;}
         public string Name {get; set;}
-        public string[] superPowers=new string[19]; //1-D array
+        //public string[] superPowers=new string[19]; //1-D array
         //jagged array
-        public int[][] ja = new int[3][];
+        //public int[][] ja = new int[3][];
+        #region Arrays
+
+        #endregion
+        public static Stack<string> superPowers = new Stack<string>();
+        public static Dictionary<string, string> hideOuts = new Dictionary<string, string>();
+
+        public Hero(){
+            superPowers.Push("Strength");
+            superPowers.Push("Flying");
+            superPowers.Push("Invisibility");
+            superPowers.Push("X-Ray vision");
+
+            hideOuts.Add("Thor","Asgard");
+            hideOuts.Add("Batman","Bat Cave");
+            hideOuts.Add("Superman","Fortress of Solitude");
+        }
+        public static IEnumerable<string> GetSuperPowers(){
+            
+            return superPowers;
+        }
+        public void RemoveSuperPower(){//string superPower
+          //  if(superPowers.Contains(superPower)){
+               // superPowers.Remove(superPower);
+          //  }
+          superPowers.Pop();
+        }
+        public void AddSuperPower(string superPower){
+            if(superPower != null && superPower != ""){
+                superPowers.Push(superPower);
+            }
+        }
+
     }
     #endregion
 }

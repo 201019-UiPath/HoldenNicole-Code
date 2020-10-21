@@ -7,6 +7,8 @@ namespace HeroesUI
     {
         static void Main(string[] args)
         {
+            Hero obj = new Hero();
+            
             #region default constructor
             /*Hero obj1=new Hero();
             Console.WriteLine($"{obj1.id} {obj1.name}");*/
@@ -24,7 +26,6 @@ namespace HeroesUI
             #endregion
 
             #region Accessing Arrays
-            Hero obj = new Hero();
             /*Console.Write("Please enter your Superhero name: ");
             obj.Id=Int32.Parse(Console.ReadLine());
             Console.Write("Please enter your Superhero name: ");
@@ -32,7 +33,7 @@ namespace HeroesUI
             Console.Write("Enter the first Power your hero has: ")
             obj.superPowers[0];
             Console.ReadLine();
-            Console.Write($"{obj.Id} {obj.Name} {obj.superPowers[0]});*/
+            Console.Write($"{obj.Id} {obj.Name} {obj.superPowers[0]});
             //Jagged Arrays rows and initializations
             obj.ja[0]=new int[2];//first column
             obj.ja[1]=new int[3];//second column
@@ -44,14 +45,33 @@ namespace HeroesUI
             Console.WriteLine($"Number of elements in the Array - {td.Length}");
             Console.WriteLine(obj.ja.Rank);//rank is dimension of array
             Console.WriteLine(obj.ja.Length);//elements of the arrays
-            //loop through jagged array
+            //loop through jagged array 
             foreach (var rows in obj.ja){//looping through all rows
                 //looping through all columns of every row
                 for(int i=0; i<rows.Length; i++){
                     Console.Write($"{rows[i]}");
                 }
                 Console.WriteLine();
-            }
+            }*/
+            #endregion
+
+            #region List<T>,Stack<T>
+            /*Console.Write("Please enter the super power to be removed: ");
+            string sp=Console.ReadLine();
+            Console.WriteLine("");
+            Console.WriteLine("Your superhero still has these super powers: ");
+            Hero.superPowers.Pop(sp);
+            
+            foreach(var superPowers in Hero.GetSuperPowers()){
+                Console.WriteLine(superPowers);
+            }*/
+            #endregion
+
+            #region Dictionary<key, value>
+                Console.WriteLine("Super Hero   Hide out");
+                foreach(var superhero in Hero.hideOuts){
+                    Console.WriteLine($"{superhero.Key}     {Hero.hideOuts[superhero.Key]}");
+                }
             #endregion
         }
     }
