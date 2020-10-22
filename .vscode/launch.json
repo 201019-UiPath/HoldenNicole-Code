@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/HeroesApp/HeroesTest/bin/Debug/netcoreapp3.1/HeroesTest.dll",
+            "program": "${workspaceFolder}/HeroesApp/HeroesUI/bin/Debug/netcoreapp3.1/HeroesUI.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/HeroesApp/HeroesTest",
+            "cwd": "${workspaceFolder}/HeroesApp/HeroesUI",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {

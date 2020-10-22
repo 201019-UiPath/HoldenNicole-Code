@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
+      "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
       "projectName": "HeroesDB",
-      "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
+      "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
       "packagesPath": "C:\\Users\\nfh22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\obj\\",
+      "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

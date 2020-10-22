@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\HeroesUI.csproj",
+      "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\HeroesUI.csproj",
       "projectName": "HeroesUI",
-      "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\HeroesUI.csproj",
+      "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\HeroesUI.csproj",
       "packagesPath": "C:\\Users\\nfh22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\obj\\",
+      "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -57,8 +57,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
-              "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\Week 1\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
+            "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
+              "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
             }
           }
         }

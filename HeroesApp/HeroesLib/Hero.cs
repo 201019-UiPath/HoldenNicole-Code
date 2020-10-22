@@ -46,19 +46,21 @@ namespace HeroesLib
     } */
     #endregion
     #region Modern way to create class members
-    public class Hero{
+     public class Hero{
         public int Id {get; set;}
         public string Name {get; set;}
         //public string[] superPowers=new string[19]; //1-D array
         //jagged array
         //public int[][] ja = new int[3][];
         #region Arrays
-
+        //public string[] superPowers=new string[10];//1-D
+        //public int[][] ja=new int[3][];//jagged array
         #endregion
-        public static Stack<string> superPowers = new Stack<string>();
+        //public static List<string> superPowers = new List<string>();
+        public static Stack<string> superPowers = new Stack<string>(); //LIFO
         public static Dictionary<string, string> hideOuts = new Dictionary<string, string>();
 
-        public Hero(){
+        /*public Hero(){
             superPowers.Push("Strength");
             superPowers.Push("Flying");
             superPowers.Push("Invisibility");
@@ -67,7 +69,7 @@ namespace HeroesLib
             hideOuts.Add("Thor","Asgard");
             hideOuts.Add("Batman","Bat Cave");
             hideOuts.Add("Superman","Fortress of Solitude");
-        }
+        } */
         public static IEnumerable<string> GetSuperPowers(){
             
             return superPowers;
