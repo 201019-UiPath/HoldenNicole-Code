@@ -60,7 +60,7 @@ namespace HeroesLib
         public static Stack<string> superPowers = new Stack<string>(); //LIFO
         public static Dictionary<string, string> hideOuts = new Dictionary<string, string>();
 
-        /*public Hero(){
+        public Hero(){
             superPowers.Push("Strength");
             superPowers.Push("Flying");
             superPowers.Push("Invisibility");
@@ -69,7 +69,7 @@ namespace HeroesLib
             hideOuts.Add("Thor","Asgard");
             hideOuts.Add("Batman","Bat Cave");
             hideOuts.Add("Superman","Fortress of Solitude");
-        } */
+        }
         public static IEnumerable<string> GetSuperPowers(){
             
             return superPowers;
@@ -83,7 +83,7 @@ namespace HeroesLib
         public void AddSuperPower(string superPower){
             if(superPower != null && superPower != ""){
                 superPowers.Push(superPower);
-            }
+            }else throw new ArgumentException("SuperPower should not be null");
         }
 
     }

@@ -1,0 +1,14 @@
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesBL.deps.json
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesBL.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesBL.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesDB.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesLib.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesDB.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\bin\Debug\netstandard2.0\HeroesLib.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.csprojAssemblyReference.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.AssemblyInfoInputs.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.AssemblyInfo.cs
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.csproj.CoreCompileInputs.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.csproj.CopyComplete
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesBL\obj\Debug\netstandard2.0\HeroesBL.pdb

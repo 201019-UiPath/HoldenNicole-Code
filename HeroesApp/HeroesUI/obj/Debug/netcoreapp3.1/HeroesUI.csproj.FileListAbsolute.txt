@@ -30,3 +30,8 @@ C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\ob
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.dll
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.pdb
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\obj\Debug\netcoreapp3.1\HeroesUI.genruntimeconfig.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesBL.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesDB.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesBL.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesUI\bin\Debug\netcoreapp3.1\HeroesDB.pdb

@@ -16,3 +16,6 @@ C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\ob
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\obj\Debug\netstandard2.0\HeroesDB.csproj.CoreCompileInputs.cache
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\obj\Debug\netstandard2.0\HeroesDB.dll
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\obj\Debug\netstandard2.0\HeroesDB.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\bin\Debug\netstandard2.0\HeroesLib.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\bin\Debug\netstandard2.0\HeroesLib.pdb
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesDB\obj\Debug\netstandard2.0\HeroesDB.csproj.CopyComplete

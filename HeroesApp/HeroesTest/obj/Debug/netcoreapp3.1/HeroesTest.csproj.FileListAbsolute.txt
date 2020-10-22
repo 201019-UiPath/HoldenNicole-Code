@@ -190,3 +190,5 @@ C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesTest\
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesTest\obj\Debug\netcoreapp3.1\HeroesTest.dll
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesTest\obj\Debug\netcoreapp3.1\HeroesTest.pdb
 C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesTest\obj\Debug\netcoreapp3.1\HeroesTest.genruntimeconfig.cache
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesTest\bin\Debug\netcoreapp3.1\HeroesLib.dll
+C:\Users\nfh22\OneDrive\Desktop\Training\HoldenNicole-Code\HeroesApp\HeroesTest\bin\Debug\netcoreapp3.1\HeroesLib.pdb

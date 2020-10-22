@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eyzrj3KsabHLjvpDWNacrIcuo2URzyFt1VGkQmbLWX4MC13/F/DEbHSwiYoObhsMr4gZa6Ui0OfxtKZuPY4RpA==",
+  "dgSpecHash": "r3N/eybcPpqGT+7408n53W+9ctnNLQosrxbpjc5oujl/Iag4biAlDjo60HJNLphSz0mMnGJ92fFgoLQDxtN/8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesUI\\HeroesUI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nfh22\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }
