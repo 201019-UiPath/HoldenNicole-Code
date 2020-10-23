@@ -9,6 +9,7 @@ namespace HeroesUI
         static void Main(string[] args)
         {
             Hero obj = new Hero();
+            HeroTasks heroTasks = new HeroTasks();
             
             #region default constructor
             /*Hero obj1=new Hero();
@@ -81,8 +82,7 @@ namespace HeroesUI
             #endregion
 
             #region Delegates, Anonymous methods, Lambda
-            HeroTasks heroTasks = new HeroTasks();
-            
+           /* HeroTasks heroTasks = new HeroTasks();
             //HeroDel del = new HeroDel(heroTasks.GetSuperPowers);
             Action del = new Action(heroTasks.GetSuperPowers);
 
@@ -90,7 +90,6 @@ namespace HeroesUI
             del();
             del += heroTasks.ManageLife;
             del();
-            #endregion
 
             //Anonymous methods
             Action<string> am = delegate(string name){
@@ -100,7 +99,14 @@ namespace HeroesUI
             
             //lambda expression - shorthand notations to anonymous methods
             Action result = () => System.Console.WriteLine("Howdy Lambda");
-            result();
+            result(); */
+            #endregion
+
+            #region Asyncronous vs Synchronous Programming
+            heroTasks.DoWork();
+            heroTasks.ManageLife();
+            Console.Read();//holds screen till key pressed allowing later thread to finish
+            #endregion
         }
     }
 }
