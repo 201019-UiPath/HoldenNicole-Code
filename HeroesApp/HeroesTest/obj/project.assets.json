@@ -3520,25 +3520,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nfh22\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\nfh22\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesTest\\HeroesTest.csproj",
+      "projectUniqueName": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesTest\\HeroesTest.csproj",
       "projectName": "HeroesTest",
-      "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesTest\\HeroesTest.csproj",
+      "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesTest\\HeroesTest.csproj",
       "packagesPath": "C:\\Users\\nfh22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesTest\\obj\\",
+      "outputPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\nfh22\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -3550,8 +3545,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
-              "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
+            "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
+              "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
             }
           }
         }

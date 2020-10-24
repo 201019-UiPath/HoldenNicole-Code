@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xWY8by3L+IjtorgU7MSmteDQfT5qSCAJUdMnjjFRA1rI7wCh0YBhubGUKsGSFCD54Tl3L7ljqr8C1vvPX4Mgow==",
+  "dgSpecHash": "yzJENdP+QhHq1IK6lRIAKy3WTxOWM45SglZcBf1Mf8MxSdAIp+a7qXI9supkdvWMJIqvfdw0BrzffOrL3TtHfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj",
+  "projectFilePath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nfh22\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\nfh22\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
