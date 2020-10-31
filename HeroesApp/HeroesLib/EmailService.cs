@@ -1,7 +1,7 @@
 namespace HeroesLib
 {
     /// <summary>
-    /// subscriber
+    /// subscriber 1
     /// </summary>
     public class EmailService
     {

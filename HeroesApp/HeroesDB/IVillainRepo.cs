@@ -1,15 +1,13 @@
-﻿using System;
+﻿using HerosDB.Models;
 using System.Collections.Generic;
-using System.Text;
-using HeroesDB.Models;
-
-namespace HeroesDB
+namespace HerosDB
 {
     public interface IVillainRepo
     {
-        void AddVillain(SuperVillain superVillain);
+        void AddAVillain(SuperVillain superVillain);
         List<SuperVillain> GetAllVillains();
 
         SuperVillain GetVillainByName(string name);
+
     }
 }

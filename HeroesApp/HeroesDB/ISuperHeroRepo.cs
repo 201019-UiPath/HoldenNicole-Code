@@ -1,15 +1,12 @@
-﻿using HeroesDB.Models;
-using System;
+﻿using HerosDB.Models;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-
-namespace HeroesDB
+namespace HerosDB
 {
     public interface ISuperHeroRepo
     {
         Task<List<SuperHero>> GetAllHeroesAsync();
-        void AddHeroAsync(SuperHero hero);
+        void AddAHeroAsync(SuperHero hero);
         SuperHero GetHeroByName(string name);
     }
 }

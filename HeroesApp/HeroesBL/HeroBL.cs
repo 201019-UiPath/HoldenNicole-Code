@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 namespace HeroesBL
 {
-    public class HeroBL
+ /*   public class HeroBL
     {
-        IRepository repo = new FileRepo();
+        ISuperHeroRepo repo = new FileRepo();
         public void AddHero(Hero newHero){
             //add business logic
             //check if name is unique
@@ -17,5 +17,5 @@ namespace HeroesBL
             Task<List<Hero>> getHeroes = repo.GetAllHeroesAsync();
             return getHeroes.Result;
         }
-    }
+    } */
 }

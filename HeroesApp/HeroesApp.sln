@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesUI", "HeroesUI\HeroesUI.csproj", "{EA4A60D6-E400-413D-A411-41F3FAECDAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroesUI", "HeroesUI\HeroesUI.csproj", "{EA4A60D6-E400-413D-A411-41F3FAECDAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesLib", "HeroesLib\HeroesLib.csproj", "{DC24CE77-A95D-4DF5-A06F-E7BF3A6239DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroesLib", "HeroesLib\HeroesLib.csproj", "{DC24CE77-A95D-4DF5-A06F-E7BF3A6239DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesDB", "HeroesDB\HeroesDB.csproj", "{E2146C3A-DE05-4A49-BC0E-C87652CAB2B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroesDB", "HeroesDB\HeroesDB.csproj", "{E2146C3A-DE05-4A49-BC0E-C87652CAB2B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesTest", "HeroesTest\HeroesTest.csproj", "{C9DAE3D8-E75F-4043-8570-AF5CD5C8F86C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroesTest", "HeroesTest\HeroesTest.csproj", "{C9DAE3D8-E75F-4043-8570-AF5CD5C8F86C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesBL", "HeroesBL\HeroesBL.csproj", "{3F42E7CE-5D16-4407-8708-D516137A1EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroesBL", "HeroesBL\HeroesBL.csproj", "{3F42E7CE-5D16-4407-8708-D516137A1EC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA4A60D6-E400-413D-A411-41F3FAECDAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +83,11 @@ Global
 		{3F42E7CE-5D16-4407-8708-D516137A1EC4}.Release|x64.Build.0 = Release|Any CPU
 		{3F42E7CE-5D16-4407-8708-D516137A1EC4}.Release|x86.ActiveCfg = Release|Any CPU
 		{3F42E7CE-5D16-4407-8708-D516137A1EC4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF7B0EF7-187D-4031-A08A-F43AED368D64}
 	EndGlobalSection
 EndGlobal

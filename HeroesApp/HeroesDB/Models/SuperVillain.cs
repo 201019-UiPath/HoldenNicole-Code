@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HeroesDB.Models
+﻿using System.Collections.Generic;
+namespace HerosDB.Models
 {
     public class SuperVillain : SuperPerson
     {
-        public List<SuperHero> Nemesis { get; set; }
+        public List<SuperEnemy> Nemesis { get; set; }
     }
 }

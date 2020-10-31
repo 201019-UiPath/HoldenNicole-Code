@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj": {}
+    "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj": {
+    "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj",
+        "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj",
         "projectName": "HeroesBL",
-        "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj",
+        "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\HeroesBL.csproj",
         "packagesPath": "C:\\Users\\nfh22\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\obj\\",
+        "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nfh22\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj": {
-                "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj"
+              "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj": {
+                "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj"
               },
-              "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
-                "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
+              "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
+                "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj": {
+    "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
+        "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
         "projectName": "HeroesDB",
-        "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
+        "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj",
         "packagesPath": "C:\\Users\\nfh22\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\obj\\",
+        "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nfh22\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,11 +88,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
-                "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -104,11 +100,31 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -129,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
+    "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj",
+        "projectUniqueName": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj",
         "projectName": "HeroesLib",
-        "projectPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj",
+        "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\HeroesLib.csproj",
         "packagesPath": "C:\\Users\\nfh22\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nfh22\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\obj\\",
+        "outputPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nfh22\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,7 +167,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj": {
+                "projectPath": "C:\\Users\\nfh22\\OneDrive\\Desktop\\Training\\HoldenNicole-Code\\HoldenNicole-Code\\HeroesApp\\HeroesDB\\HeroesDB.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

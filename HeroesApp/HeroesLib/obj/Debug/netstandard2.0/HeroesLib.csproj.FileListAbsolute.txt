@@ -25,3 +25,6 @@ C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\He
 C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\HeroesLib\obj\Debug\netstandard2.0\HeroesLib.csproj.CoreCompileInputs.cache
 C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\HeroesLib\obj\Debug\netstandard2.0\HeroesLib.dll
 C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\HeroesLib\obj\Debug\netstandard2.0\HeroesLib.pdb
+C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\HeroesLib\bin\Debug\netstandard2.0\HeroesDB.dll
+C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\HeroesLib\bin\Debug\netstandard2.0\HeroesDB.pdb
+C:\Users\nfh22\Desktop\Training\HoldenNicole-Code\HoldenNicole-Code\HeroesApp\HeroesLib\obj\Debug\netstandard2.0\HeroesLib.csproj.CopyComplete
