@@ -54,7 +54,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,488" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="C:\Users\nfh22\Downloads\Sample Columns.xlsx">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,488" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="Sample Columns.xlsx">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
@@ -85,7 +85,7 @@
                 <InArgument x:TypeArguments="ui:GenericValue">[Input.Rows.Count]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ExcelWriteRange AddHeaders="False" DataTable="[&quot;=SUM(A1,B1)&quot;]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,86.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="C:\Users\nfh22\Downloads\Sample Columns.xlsx" StartingCell="[&quot;C1:C&quot; + rowCount]" />
+            <ui:ExcelWriteRange AddHeaders="False" DataTable="[Input]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,86.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="C:\Users\nfh22\Downloads\Sample Columns.xlsx" StartingCell="[&quot;C1:C&quot; + rowCount]" />
           </Sequence>
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
