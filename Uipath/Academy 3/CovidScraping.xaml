@@ -84,7 +84,6 @@
                 </ui:Target>
               </ui:WaitUiElementAppear.Target>
             </ui:WaitUiElementAppear>
-            <ui:IndicateOnScreen HidePreview="{x:Null}" SelectScreenRegion="{x:Null}" SelectedUiElement="{x:Null}" DisplayName="Indicate On Screen" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="IndicateOnScreen_2" />
             <ui:ExtractData DelayBetweenPagesMS="{x:Null}" ContinueOnError="True" DataTable="[table]" DisplayName="Extract Structured Data 'TABLE'" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest' /&gt;" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ExtractData_1" MaxNumberOfResults="100" NextLinkSelector="&lt;webctrl aaname='           05/01/2020         ' parentid='renderTypeContainer' tag='DIV' /&gt;" SimulateClick="True">
               <ui:ExtractData.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="6e975a638a78c2db2fb0a2b97f789e2e" Selector="&lt;webctrl parentid='renderTypeContainer' tag='TABLE' /&gt;" WaitForReady="COMPLETE">
@@ -94,7 +93,8 @@
                 </ui:Target>
               </ui:ExtractData.Target>
             </ui:ExtractData>
-            <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="False" DataTable="[table]" Delimitator="Comma" DisplayName="Write CSV" FilePath="CovidData.csv" sap:VirtualizedContainerService.HintSize="334,156.666666666667" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+            <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[table]" Delimitator="Comma" DisplayName="Write CSV" FilePath="CovidData.csv" sap:VirtualizedContainerService.HintSize="334,156.666666666667" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+            <ui:CloseTab Browser="{x:Null}" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="CloseTab_1" />
           </Sequence>
         </ActivityAction>
       </ui:OpenBrowser.Body>

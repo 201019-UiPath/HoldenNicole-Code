@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="LossInvoices" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,1402" sap2010:WorkflowViewState.IdRef="LossInvoices_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="LossInvoices" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,1343.33333333333" sap2010:WorkflowViewState.IdRef="LossInvoices_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="23">
       <x:String>System.Activities</x:String>
@@ -48,19 +48,19 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="LossInvoices" sap:VirtualizedContainerService.HintSize="476,1342" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="LossInvoices" sap:VirtualizedContainerService.HintSize="476,1243.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ExcelApplicationScope Password="{x:Null}" WorkbookPath="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,1250" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,1151.33333333333" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="C:\Users\nfh22\Downloads\Invoices.xlsx">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="396.666666666667,1141.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="396.666666666667,1042.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="Invoices" />
               <Variable x:TypeArguments="sd:DataTable" Name="Clients" />
@@ -73,7 +73,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ExcelReadRange AddHeaders="False" DataTable="[Invoices]" DisplayName="Read Invoices" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="C:\Users\nfh22\Downloads\Invoices.xlsx">
+            <ui:ExcelReadRange AddHeaders="False" DataTable="[Invoices]" DisplayName="Read Invoices" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="Sheet1">
               <ui:ExcelReadRange.Range>
                 <InArgument x:TypeArguments="x:String">
                   <Literal x:TypeArguments="x:String" Value="" />
@@ -81,21 +81,7 @@
               </ui:ExcelReadRange.Range>
             </ui:ExcelReadRange>
             <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[Clients]" Delimitator="Comma" DisplayName="Read CSV" FilePath="C:\Users\nfh22\Downloads\Clients.csv" sap:VirtualizedContainerService.HintSize="354.666666666667,156.666666666667" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
-            <ui:JoinDataTables DataTable1="[Clients]" DataTable2="[Invoices]" DisplayName="Join Data Tables" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="JoinDataTables_1" JoinType="Left" OutputDataTable="[Join]">
-              <ui:JoinDataTables.Arguments>
-                <scg:List x:TypeArguments="ui:JoinOperationArgument" Capacity="4">
-                  <ui:JoinOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EQ">
-                    <ui:JoinOperationArgument.Column1>
-                      <InArgument x:TypeArguments="x:String">["ClientName"]</InArgument>
-                    </ui:JoinOperationArgument.Column1>
-                    <ui:JoinOperationArgument.Column2>
-                      <InArgument x:TypeArguments="x:String">["ClientName"]</InArgument>
-                    </ui:JoinOperationArgument.Column2>
-                  </ui:JoinOperationArgument>
-                </scg:List>
-              </ui:JoinDataTables.Arguments>
-            </ui:JoinDataTables>
-            <ui:FilterDataTable DataTable="[Join]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[Filtered]" SelectColumnsMode="Keep">
+            <ui:FilterDataTable DataTable="[Clients]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[Filtered]" SelectColumnsMode="Keep">
               <ui:FilterDataTable.Filters>
                 <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
                   <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">

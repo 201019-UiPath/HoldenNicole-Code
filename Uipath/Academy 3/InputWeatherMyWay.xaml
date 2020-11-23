@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="InputWeather" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,1200" sap2010:WorkflowViewState.IdRef="InputWeather_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="InputWeather" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,1101.33333333333" sap2010:WorkflowViewState.IdRef="InputWeather_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
       <x:String>System.Activities</x:String>
@@ -45,7 +45,7 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="InputWeather" sap:VirtualizedContainerService.HintSize="476,1100" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="InputWeather" sap:VirtualizedContainerService.HintSize="476,1001.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="city" />
     </Sequence.Variables>
@@ -59,7 +59,6 @@
         <OutArgument x:TypeArguments="x:String">[city]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The city you picked is: &quot; + city]" />
     <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="434,777.333333333333" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="google.com">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">

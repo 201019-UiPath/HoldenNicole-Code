@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Percentages" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,1848.66666666667" sap2010:WorkflowViewState.IdRef="Percentages_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Percentages" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="585.333333333333,1972" sap2010:WorkflowViewState.IdRef="Percentages_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="23">
       <x:String>System.Activities</x:String>
@@ -50,48 +50,64 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Percentages" sap:VirtualizedContainerService.HintSize="476,1748.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Percentages" sap:VirtualizedContainerService.HintSize="565.333333333333,1872" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="Cash" />
+      <Variable x:TypeArguments="sd:DataTable" Name="Card" />
+      <Variable x:TypeArguments="x:Double" Name="TotalCash" />
+      <Variable x:TypeArguments="x:Double" Name="TotalCard" />
+      <Variable x:TypeArguments="ui:GenericValue" Name="PercentageCash" />
+      <Variable x:TypeArguments="ui:GenericValue" Name="Total" />
+      <Variable x:TypeArguments="ui:GenericValue" Name="PercentageCard" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ExcelApplicationScope Password="{x:Null}" WorkbookPath="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,1656.66666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="523.333333333333,259.333333333333" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="C:\Users\nfh22\Downloads\CashPayments.xlsx">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="396.666666666667,1548" sap2010:WorkflowViewState.IdRef="Sequence_4">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="sd:DataTable" Name="Cash" />
-              <Variable x:TypeArguments="sd:DataTable" Name="Card" />
-              <Variable x:TypeArguments="x:Double" Name="TotalCash" />
-              <Variable x:TypeArguments="x:Double" Name="TotalCard" />
-              <Variable x:TypeArguments="ui:GenericValue" Name="PercentageCash" />
-              <Variable x:TypeArguments="ui:GenericValue" Name="Total" />
-              <Variable x:TypeArguments="ui:GenericValue" Name="PercentageCard" />
-            </Sequence.Variables>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,150.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ExcelReadRange AddHeaders="True" DataTable="[Cash]" DisplayName="Read Cash" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="C:\Users\nfh22\Downloads\CashPayments.xlsx">
+            <ui:ExcelReadRange AddHeaders="True" DataTable="[Cash]" DisplayName="Read Cash" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="Sheet1">
               <ui:ExcelReadRange.Range>
                 <InArgument x:TypeArguments="x:String">
                   <Literal x:TypeArguments="x:String" Value="" />
                 </InArgument>
               </ui:ExcelReadRange.Range>
             </ui:ExcelReadRange>
-            <ui:ExcelReadRange AddHeaders="True" DataTable="[Card]" DisplayName="Read Card" sap:VirtualizedContainerService.HintSize="354.666666666667,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="C:\Users\nfh22\Downloads\CardPayments.xlsx">
+          </Sequence>
+        </ActivityAction>
+      </ui:ExcelApplicationScope.Body>
+    </ui:ExcelApplicationScope>
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="523.333333333333,1480.66666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" WorkbookPath="C:\Users\nfh22\Downloads\CardPayments.xlsx">
+      <ui:ExcelApplicationScope.Body>
+        <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="489.333333333333,1372" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ExcelReadRange AddHeaders="True" DataTable="[Card]" DisplayName="Read Card" sap:VirtualizedContainerService.HintSize="447.333333333333,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="Sheet1">
               <ui:ExcelReadRange.Range>
                 <InArgument x:TypeArguments="x:String">
                   <Literal x:TypeArguments="x:String" Value="" />
                 </InArgument>
               </ui:ExcelReadRange.Range>
             </ui:ExcelReadRange>
-            <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign sap:VirtualizedContainerService.HintSize="447.333333333333,62" sap2010:WorkflowViewState.IdRef="Assign_1">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Double">[TotalCash]</OutArgument>
               </Assign.To>
@@ -99,19 +115,19 @@
                 <InArgument x:TypeArguments="x:Double">0</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[Cash]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="354.666666666667,303.333333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[Cash]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="447.333333333333,1079.33333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,154" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="396.666666666667,930" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_2">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Double">[TotalCash]</OutArgument>
                       </Assign.To>
@@ -119,77 +135,62 @@
                         <InArgument x:TypeArguments="x:Double">[TotalCash + Double.Parse(row.ItemArray(2).ToString)]</InArgument>
                       </Assign.Value>
                     </Assign>
-                  </Sequence>
-                </ActivityAction>
-              </ui:ForEachRow.Body>
-            </ui:ForEachRow>
-            <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_3">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:Double">[TotalCard]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:Double">0</InArgument>
-              </Assign.Value>
-            </Assign>
-            <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[Card]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="354.666666666667,405.333333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
-              <ui:ForEachRow.Body>
-                <ActivityAction x:TypeArguments="sd:DataRow">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,256" sap2010:WorkflowViewState.IdRef="Sequence_3">
-                    <Sequence.Variables>
-                      <Variable x:TypeArguments="ui:GenericValue" Name="tempCard" />
-                    </Sequence.Variables>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_8">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="ui:GenericValue">[tempCard]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="ui:GenericValue">[Double.Parse(row.ItemArray(2).ToString)]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_3">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Double">[TotalCard]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="x:Double">[TotalCard + tempCard]</InArgument>
+                        <InArgument x:TypeArguments="x:Double">0</InArgument>
                       </Assign.Value>
                     </Assign>
+                    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[Card]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="354.666666666667,405.333333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,256" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="ui:GenericValue" Name="tempCard" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_8">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="ui:GenericValue">[tempCard]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="ui:GenericValue">[Double.Parse(row.ItemArray(2).ToString)]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <Assign sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_4">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Double">[TotalCard]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Double">[TotalCard + tempCard]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                    </ui:ForEachRow>
+                    <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_5">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="ui:GenericValue">[Total]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="ui:GenericValue">[TotalCard+ TotalCash]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:ExcelWriteCell Text="{x:Null}" Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="354.666666666667,86.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Sheet1" />
                   </Sequence>
                 </ActivityAction>
               </ui:ForEachRow.Body>
             </ui:ForEachRow>
-            <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_5">
-              <Assign.To>
-                <OutArgument x:TypeArguments="ui:GenericValue">[Total]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="ui:GenericValue">[TotalCard+ TotalCash]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_6">
-              <Assign.To>
-                <OutArgument x:TypeArguments="ui:GenericValue">[PercentageCash]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="ui:GenericValue">[(TotalCash/Total)*100]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="354.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_7">
-              <Assign.To>
-                <OutArgument x:TypeArguments="ui:GenericValue">[PercentageCard]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="ui:GenericValue">[(TotalCard/Total)*100]</InArgument>
-              </Assign.Value>
-            </Assign>
           </Sequence>
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
