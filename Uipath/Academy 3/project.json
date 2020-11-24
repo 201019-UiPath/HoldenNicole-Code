@@ -1,10 +1,11 @@
 {
   "name": "Academy 3",
-  "description": "UI Interactions\r\nSelectors",
+  "description": "UI Interactions\r\nSelectors\r\nProject Organization",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.7.2]",
     "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.PDF.Activities": "[3.3.0]",
     "UiPath.System.Activities": "[19.10.1]",
     "UiPath.UIAutomation.Activities": "[19.11.3]"
   },
@@ -13,6 +14,7 @@
   "studioVersion": "19.10.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "isPausable": true,
     "requiresUserInteraction": true,
