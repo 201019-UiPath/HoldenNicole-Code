@@ -50,7 +50,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'msedge.exe Perfect'" sap:VirtualizedContainerService.HintSize="802,436" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="0c6bdccb18cf9110cb3ea3fcfff4bb56" Selector="&lt;html app='msedge.exe' title='Perfect Match.pdf' /&gt;">
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'msedge.exe Perfect'" sap:VirtualizedContainerService.HintSize="802,436" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ad7a582abd874d8c31e7fc28e1c681a9" Selector="&lt;wnd app='suite.exe' cls='pdf-ui-engine-wnd-class' title='PDF Suite 2020 → Perfect Match.pdf' /&gt;">
       <ui:WindowScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -68,9 +68,9 @@
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                   </ActivityAction.Argument>
-                  <ui:GetValue ContinueOnError="{x:Null}" Value="{x:Null}" DisplayName="Get Text" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="GetValue_1">
+                  <ui:GetValue ContinueOnError="{x:Null}" Value="{x:Null}" DisplayName="Get Text 'pdf-render-wnd-class'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_1">
                     <ui:GetValue.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="bea3de76fa57f2712ec9f069b3c9bfa6" Selector="&lt;wnd cls='pdf-render-wnd-class' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -85,7 +85,7 @@
               <ui:AnchorBase.AnchorProvider>
                 <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'pane'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
                   <ui:WaitUiElementAppear.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="0de66f024fb8081597e2483f27aa1fe4" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Perfect Match.pdf - Personal - Microsoft​ Edge' /&gt;&lt;ctrl name='Perfect Match.pdf - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Microsoft Edge' role='pane' /&gt;&lt;ctrl idx='14' role='pane' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="bea3de76fa57f2712ec9f069b3c9bfa6" Selector="&lt;wnd cls='pdf-render-wnd-class' title='pdf-render-window' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>

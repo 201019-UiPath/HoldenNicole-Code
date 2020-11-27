@@ -1,19 +1,17 @@
 {
-  "name": "Academy 1 developer foundation",
-  "description": "UiAcademy and some random practice code\r\n",
+  "name": "Academy 4 developer foundation",
+  "description": "Orchestrator\r\n",
   "main": "Main.xaml",
   "dependencies": {
-    "System.Data.Common": "[4.3.0]",
     "UiPath.Excel.Activities": "[2.7.2]",
     "UiPath.Mail.Activities": "[1.7.2]",
-    "UiPath.PDF.Activities": "[3.3.0]",
     "UiPath.System.Activities": "[19.10.1]",
     "UiPath.UIAutomation.Activities": "[19.11.3]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.10.5.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.5",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -33,6 +31,10 @@
       "privateWorkflows": []
     },
     "fileInfos": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
   },
   "expressionLanguage": "VisualBasic"
 }
